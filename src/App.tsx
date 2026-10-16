@@ -2,10 +2,11 @@ import { useEffect, useState } from 'react';
 
 type Stage = 'world' | 'glitch-in' | 'simulation' | 'glitch-out' | 'restored' | 'dissolve' | 'home';
 const timeline: Array<[Stage, number]> = [['glitch-in', 1300], ['simulation', 1950], ['glitch-out', 3650], ['restored', 4300], ['dissolve', 5750], ['home', 6900]];
+const glyphSet = '01ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzアイウエオカキクケコサシスセソタチツテト';
 const streams = Array.from({ length: 54 }, (_, i) => ({
   id: i, left: `${(i * 61.803) % 100}%`, delay: `${-((i * 1.71) % 13)}s`,
   duration: `${8 + ((i * 7) % 9)}s`,
-  glyphs: Array.from({ length: 36 }, (_, j) => '01ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzアイウエオカキクケコサシスセソタチツテト'[(i * 11 + j * 7) % 74]).join('\n'),
+  glyphs: Array.from({ length: 36 }, (_, j) => glyphSet[(i * 11 + j * 7) % glyphSet.length]).join('\n'),
 }));
 function MatrixRain() { return <div className="matrix-rain" aria-hidden="true">{streams.map(s => <span key={s.id} className="rain-column" style={{ left: s.left, animationDelay: s.delay, animationDuration: s.duration }}>{s.glyphs}</span>)}</div>; }
 const skills = [
