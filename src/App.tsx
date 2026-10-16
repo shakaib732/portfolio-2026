@@ -41,7 +41,9 @@ export default function App() {
   const word = simulation ? 'Simulation!' : 'World!';
   return <main>{stage !== 'home' ? <section className={`splash ${stage.startsWith('glitch') ? 'is-glitching' : ''} ${stage === 'restored' ? 'is-restored' : ''}`} aria-label="Introduction">
     <MatrixRain /><div className="screen-noise" aria-hidden="true" />
-    <div className="intro-center"><h1 className="headline"><span className="hello-word">Hello </span><span className={`glitch-word ${simulation ? 'simulation-word' : ''}`} data-text={word}>{word}</span></h1></div>
+    <div className="topline"><span>[ SK_2026 ]</span><span>CONNECTION ESTABLISHED <i className="status-dot" /></span></div>
+    <div className="intro-center"><p className="eyebrow">&gt; WAKE UP_</p><h1 className="headline"><span className="hello-word">Hello</span><span className={`glitch-word ${simulation ? 'simulation-word' : ''}`} data-text={word}>{word}</span></h1><p className="subline">{simulation ? 'WARNING: REALITY.EXE HAS STOPPED RESPONDING' : stage === 'restored' ? 'SYSTEM RESTORED // FOLLOW THE WHITE RABBIT' : 'THERE IS NO SPOON_'}<span className="cursor">▌</span></p></div>
+    <div className="bottomline"><span>SYS.STATUS: ONLINE</span><span className="loader"><span /></span><span>ENTERING THE MATRIX</span></div><button className="skip" onClick={() => setStage('home')}>[ SKIP INTRO ↗ ]</button>
   </section> : <div className="site">
     <a className="skip-content" href="#about">Skip to content</a>
     <header className="site-header"><a className="site-logo" href="#top" aria-label="Back to top">SK<span>_</span></a><nav aria-label="Main navigation"><a href="#about">ABOUT</a><a href="#skills">SKILLS</a><a href="#experience">EXPERIENCE</a><a href="#projects">PROJECTS</a><a href="#contact">CONTACT</a></nav><span className="header-status"><i className="status-dot" /> AVAILABLE FOR CONNECTION</span></header>
