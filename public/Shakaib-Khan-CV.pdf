@@ -1,0 +1,111 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+3 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R] /Count 2 >>
+endobj
+4 0 obj
+<< /Length 2513 >>
+stream
+BT
+/F2 19 Tf 1 0 0 1 48 755 Tm (SHAKAIB KHAN) Tj
+/F1 9.4 Tf 1 0 0 1 48 727 Tm (SENIOR SOFTWARE ENGINEER) Tj
+/F1 9.4 Tf 1 0 0 1 48 710 Tm (Kolkata, India | +91-6290436750 | shakaibkhan732@gmail.com) Tj
+/F1 9.4 Tf 1 0 0 1 48 693 Tm (linkedin.com/in/shakaib-khan | github.com/shakaib732) Tj
+/F1 9.4 Tf 1 0 0 1 48 676 Tm () Tj
+/F2 11 Tf 1 0 0 1 48 663 Tm (PROFESSIONAL SUMMARY) Tj
+/F1 9.4 Tf 1 0 0 1 48 642 Tm (Senior Software Engineer with 6+ years delivering enterprise full-stack, backend and frontend) Tj
+/F1 9.4 Tf 1 0 0 1 48 625 Tm (solutions for Microsoft and Seagate projects. MERN stack, Lit.js, AEM, EDS, REST APIs,) Tj
+/F1 9.4 Tf 1 0 0 1 48 608 Tm (MongoDB, Azure Service Bus, performance optimization and Playwright automation.) Tj
+/F1 9.4 Tf 1 0 0 1 48 591 Tm () Tj
+/F2 11 Tf 1 0 0 1 48 578 Tm (TECHNICAL SKILLS) Tj
+/F1 9.4 Tf 1 0 0 1 48 557 Tm (Languages: JavaScript \(ES6+\), TypeScript, Java, SQL) Tj
+/F1 9.4 Tf 1 0 0 1 48 540 Tm (Frontend: React.js, Lit.js, HTML5, CSS3, Redux, Context API) Tj
+/F1 9.4 Tf 1 0 0 1 48 523 Tm (Backend: Node.js, Express.js, REST API development, JWT, OAuth) Tj
+/F1 9.4 Tf 1 0 0 1 48 506 Tm (Databases: MongoDB, SQL) Tj
+/F1 9.4 Tf 1 0 0 1 48 489 Tm (Enterprise and Cloud: AEM, Edge Delivery Services, Azure, Azure Service Bus) Tj
+/F1 9.4 Tf 1 0 0 1 48 472 Tm (Testing and Tools: Playwright, Git, GitHub Actions, CI/CD, Lighthouse, Agile Scrum) Tj
+/F1 9.4 Tf 1 0 0 1 48 455 Tm (Mobile and AI: Android, TensorFlow) Tj
+/F1 9.4 Tf 1 0 0 1 48 438 Tm () Tj
+/F2 11 Tf 1 0 0 1 48 425 Tm (PROFESSIONAL EXPERIENCE) Tj
+/F2 11 Tf 1 0 0 1 48 404 Tm (Senior Software Engineer | Infogain | Mar 2024 - Present) Tj
+/F1 9.4 Tf 1 0 0 1 48 383 Tm (- Reusable Lit.js components for Microsoft platforms within AEM and EDS.) Tj
+/F1 9.4 Tf 1 0 0 1 48 366 Tm (- Improved Core Web Vitals, including LCP and resource-loading performance.) Tj
+/F1 9.4 Tf 1 0 0 1 48 349 Tm (- Playwright regression testing for 80-100 reusable web components.) Tj
+/F1 9.4 Tf 1 0 0 1 48 332 Tm (- API optimization, input validation, secure coding and technical documentation.) Tj
+/F1 9.4 Tf 1 0 0 1 48 315 Tm () Tj
+/F2 11 Tf 1 0 0 1 48 302 Tm (Development Consultant | Infogain | Apr 2022 - Feb 2024) Tj
+/F1 9.4 Tf 1 0 0 1 48 281 Tm (- Built secure Node.js, Express.js and MongoDB REST APIs for Seagate.) Tj
+/F1 9.4 Tf 1 0 0 1 48 264 Tm (- Contributed to Hotspot \(DaaS\) and Lyve Hub enterprise platforms.) Tj
+/F1 9.4 Tf 1 0 0 1 48 247 Tm (- Azure Service Bus asynchronous processing and status synchronization.) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Length 2502 >>
+stream
+BT
+/F2 19 Tf 1 0 0 1 48 755 Tm (SHAKAIB KHAN | EXPERIENCE CONTINUED) Tj
+/F1 9.4 Tf 1 0 0 1 48 727 Tm () Tj
+/F2 11 Tf 1 0 0 1 48 714 Tm (Associate Consultant | Emmett Technologies | Oct 2021 - Mar 2022) Tj
+/F1 9.4 Tf 1 0 0 1 48 693 Tm (- Full-stack SaaS OMR analysis platform using React.js, Node.js, Express.js and SQL.) Tj
+/F1 9.4 Tf 1 0 0 1 48 676 Tm (- In-house OMR detection algorithm with approximately 97% accuracy.) Tj
+/F1 9.4 Tf 1 0 0 1 48 659 Tm (- QR-code identification, responsive interfaces and SQL optimization.) Tj
+/F1 9.4 Tf 1 0 0 1 48 642 Tm () Tj
+/F2 11 Tf 1 0 0 1 48 629 Tm (Associate Software Engineer \(Android\) | Emmett Technologies | Mar 2020 - Sep 2021) Tj
+/F1 9.4 Tf 1 0 0 1 48 608 Tm (- Java and TensorFlow applications for intelligent transportation systems.) Tj
+/F1 9.4 Tf 1 0 0 1 48 591 Tm (- Traffic sign and traffic light detection with approximately 95% accuracy.) Tj
+/F1 9.4 Tf 1 0 0 1 48 574 Tm (- GPS-based real-time driver scoring and AI model integration.) Tj
+/F1 9.4 Tf 1 0 0 1 48 557 Tm () Tj
+/F2 11 Tf 1 0 0 1 48 544 Tm (Software Engineer Intern | Masco Infocom | Jan 2019 - Feb 2020) Tj
+/F1 9.4 Tf 1 0 0 1 48 523 Tm (- Android chat application with Java, Firebase and SQLite.) Tj
+/F1 9.4 Tf 1 0 0 1 48 506 Tm (- Authentication, messaging, synchronization and offline data persistence.) Tj
+/F1 9.4 Tf 1 0 0 1 48 489 Tm () Tj
+/F2 11 Tf 1 0 0 1 48 476 Tm (SELECTED PROJECTS) Tj
+/F1 9.4 Tf 1 0 0 1 48 455 Tm (Microsoft AEM and EDS Components) Tj
+/F1 9.4 Tf 1 0 0 1 48 438 Tm (Reusable Lit.js components and Playwright validation for enterprise platforms.) Tj
+/F1 9.4 Tf 1 0 0 1 48 421 Tm () Tj
+/F1 9.4 Tf 1 0 0 1 48 408 Tm (Seagate Hotspot \(DaaS\)) Tj
+/F1 9.4 Tf 1 0 0 1 48 391 Tm (Node.js, Express.js, MongoDB backend APIs and Azure Service Bus integration.) Tj
+/F1 9.4 Tf 1 0 0 1 48 374 Tm () Tj
+/F1 9.4 Tf 1 0 0 1 48 361 Tm (OMR Analysis Platform) Tj
+/F1 9.4 Tf 1 0 0 1 48 344 Tm (React.js, Node.js and SQL SaaS application; custom OMR algorithm ~97% accurate.) Tj
+/F1 9.4 Tf 1 0 0 1 48 327 Tm () Tj
+/F1 9.4 Tf 1 0 0 1 48 314 Tm (Traffic Sign Detection Application) Tj
+/F1 9.4 Tf 1 0 0 1 48 297 Tm (Android, Java and TensorFlow computer vision; ~95% detection accuracy.) Tj
+/F1 9.4 Tf 1 0 0 1 48 280 Tm () Tj
+/F2 11 Tf 1 0 0 1 48 267 Tm (EDUCATION) Tj
+/F1 9.4 Tf 1 0 0 1 48 246 Tm (Bachelor of Technology, Computer Science and Engineering) Tj
+/F1 9.4 Tf 1 0 0 1 48 229 Tm (Maulana Abul Kalam Azad University of Technology \(formerly WBUT\) | 2014 - 2018) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 3 0 R >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000079 00000 n 
+0000000154 00000 n 
+0000000217 00000 n 
+0000002782 00000 n 
+0000002918 00000 n 
+0000005472 00000 n 
+0000005608 00000 n 
+trailer
+<< /Size 9 /Root 8 0 R >>
+startxref
+5657
+%%EOF
