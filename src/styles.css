@@ -37,3 +37,6 @@
 .splash .matrix-rain{opacity:.9;mask-image:linear-gradient(90deg,#000a,#0006 35%,#0006 65%,#000a)}
 .splash .rain-column{color:#8dff43;text-shadow:0 0 10px #76ff22;opacity:.75}
 @media(max-width:600px){.splash .headline{font-size:clamp(25px,7vw,44px);letter-spacing:-.095em}}
+
+/* Comfortable, consistent spacing without reserving a fixed word width */
+.splash .hello-word{margin-right:.24em}
