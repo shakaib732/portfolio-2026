@@ -62,3 +62,11 @@
 
 /* Final portfolio actions */
 .hero-actions{display:flex;align-items:center;flex-wrap:wrap;gap:12px}.hero-actions .action-link{min-height:53px}.cv-link{background:#baff00;color:#030503!important}.cv-link:hover{background:transparent;color:#baff00!important}.cv-contact{margin-left:12px;background:transparent;color:#030503!important}.cv-contact:hover{background:#030503;color:#baff00!important}@media(max-width:700px){.hero-actions{width:100%}.hero-actions .action-link{width:100%;justify-content:space-between}.cv-contact{margin-left:0;margin-top:0}}
+
+/* Smooth in-page navigation and prominent resume access */
+html{scroll-behavior:smooth;scroll-padding-top:22px}
+.site section[id]{scroll-margin-top:22px}
+.site-header nav .nav-cv{color:#030503;background:#baff00;border:1px solid #baff00;padding:10px 12px;font-weight:700;white-space:nowrap}
+.site-header nav .nav-cv:hover,.site-header nav .nav-cv:focus-visible{color:#baff00;background:transparent}
+@media(max-width:700px){.site-header nav .nav-cv{padding:7px 9px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
