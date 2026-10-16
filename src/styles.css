@@ -59,3 +59,6 @@
 .splash .matrix-rain{z-index:-1;opacity:.37;mask-image:linear-gradient(90deg,transparent 10%,#000 95%);-webkit-mask-image:linear-gradient(90deg,transparent 10%,#000 95%)}
 .splash .rain-column{color:#a5ff2e;text-shadow:0 0 9px #baff00;opacity:1}
 .splash .intro-center::before{background:radial-gradient(ellipse,#061008c9,transparent 72%)}
+
+/* Final portfolio actions */
+.hero-actions{display:flex;align-items:center;flex-wrap:wrap;gap:12px}.hero-actions .action-link{min-height:53px}.cv-link{background:#baff00;color:#030503!important}.cv-link:hover{background:transparent;color:#baff00!important}.cv-contact{margin-left:12px;background:transparent;color:#030503!important}.cv-contact:hover{background:#030503;color:#baff00!important}@media(max-width:700px){.hero-actions{width:100%}.hero-actions .action-link{width:100%;justify-content:space-between}.cv-contact{margin-left:0;margin-top:0}}
