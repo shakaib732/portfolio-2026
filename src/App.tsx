@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react';
 
-type Stage = 'world' | 'glitch-in' | 'simulation' | 'glitch-out' | 'restored' | 'home';
-const timeline: Array<[Stage, number]> = [['glitch-in', 1300], ['simulation', 1950], ['glitch-out', 3650], ['restored', 4300], ['home', 5750]];
+type Stage = 'world' | 'glitch-in' | 'simulation' | 'glitch-out' | 'restored' | 'dissolve' | 'home';
+const timeline: Array<[Stage, number]> = [['glitch-in', 1300], ['simulation', 1950], ['glitch-out', 3650], ['restored', 4300], ['dissolve', 5750], ['home', 6900]];
 const streams = Array.from({ length: 54 }, (_, i) => ({
   id: i, left: `${(i * 61.803) % 100}%`, delay: `${-((i * 1.71) % 13)}s`,
   duration: `${8 + ((i * 7) % 9)}s`,
-  glyphs: Array.from({ length: 36 }, (_, j) => '01アイウエオカキクケコサシスセソタチツテト'[(i * 11 + j * 7) % 26]).join('\n'),
+  glyphs: Array.from({ length: 36 }, (_, j) => '01ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzアイウエオカキクケコサシスセソタチツテト'[(i * 11 + j * 7) % 74]).join('\n'),
 }));
 function MatrixRain() { return <div className="matrix-rain" aria-hidden="true">{streams.map(s => <span key={s.id} className="rain-column" style={{ left: s.left, animationDelay: s.delay, animationDuration: s.duration }}>{s.glyphs}</span>)}</div>; }
 const skills = [
@@ -39,12 +39,12 @@ export default function App() {
   }, []);
   const simulation = stage === 'simulation' || stage === 'glitch-in' || stage === 'glitch-out';
   const word = simulation ? 'Simulation!' : 'World!';
-  return <main>{stage !== 'home' ? <section className={`splash ${stage.startsWith('glitch') ? 'is-glitching' : ''} ${stage === 'restored' ? 'is-restored' : ''}`} aria-label="Introduction">
+  return <main className={stage === 'dissolve' ? 'is-dissolving' : ''}>{stage !== 'home' && <section className={`splash ${stage.startsWith('glitch') ? 'is-glitching' : ''} ${stage === 'restored' ? 'is-restored' : ''}`} aria-label="Introduction">
     <MatrixRain /><div className="screen-noise" aria-hidden="true" />
     <div className="topline"><span>[ SK_2026 ]</span><span>CONNECTION ESTABLISHED <i className="status-dot" /></span></div>
     <div className="intro-center"><p className="eyebrow">&gt; WAKE UP_</p><h1 className="headline"><span className="hello-word">Hello</span><span className={`glitch-word ${simulation ? 'simulation-word' : ''}`} data-text={word}>{word}</span></h1><p className="subline">{simulation ? 'WARNING: REALITY.EXE HAS STOPPED RESPONDING' : stage === 'restored' ? 'SYSTEM RESTORED // FOLLOW THE WHITE RABBIT' : 'THERE IS NO SPOON_'}<span className="cursor">▌</span></p></div>
     <div className="bottomline"><span>SYS.STATUS: ONLINE</span><span className="loader"><span /></span><span>ENTERING THE MATRIX</span></div><button className="skip" onClick={() => setStage('home')}>[ SKIP INTRO ↗ ]</button>
-  </section> : <div className="site">
+  </section>}{(stage === 'home' || stage === 'dissolve') && <div className="site">
     <a className="skip-content" href="#about">Skip to content</a>
     <header className="site-header"><a className="site-logo" href="#top" aria-label="Back to top">SK<span>_</span></a><nav aria-label="Main navigation"><a href="#about">ABOUT</a><a href="#skills">SKILLS</a><a href="#experience">EXPERIENCE</a><a href="#projects">PROJECTS</a><a href="#contact">CONTACT</a></nav><span className="header-status"><i className="status-dot" /> AVAILABLE FOR CONNECTION</span></header>
     <section className="hero-section" id="top"><MatrixRain /><div className="hero-inner"><p className="eyebrow">[ SYSTEM ONLINE ] &nbsp; / &nbsp; KOLKATA, INDIA</p><p className="hero-pretitle">&gt; HELLO, I AM</p><h1>SHAKAIB<br /><span>KHAN.</span></h1><div className="hero-bottom"><div><p className="hero-role">SENIOR SOFTWARE ENGINEER<span className="cursor">_</span></p><p className="hero-description">Building scalable full-stack applications, enterprise web experiences and high-performance APIs. 6+ years of engineering across Microsoft and Seagate projects.</p></div><a className="action-link" href="#projects">EXPLORE MY WORK <span aria-hidden="true">↘</span></a></div></div><span className="hero-side-label">SCROLL TO DECODE ↓</span></section>
