@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 
 type Stage = 'world' | 'glitch-in' | 'simulation' | 'glitch-out' | 'restored' | 'home';
-const timeline: Array<[Stage, number]> = [['glitch-in', 1100], ['simulation', 1570], ['glitch-out', 2850], ['restored', 3360], ['home', 4650]];
+const timeline: Array<[Stage, number]> = [['glitch-in', 1300], ['simulation', 1950], ['glitch-out', 3650], ['restored', 4300], ['home', 5750]];
 const streams = Array.from({ length: 54 }, (_, i) => ({
   id: i, left: `${(i * 61.803) % 100}%`, delay: `${-((i * 1.71) % 13)}s`,
   duration: `${8 + ((i * 7) % 9)}s`,
